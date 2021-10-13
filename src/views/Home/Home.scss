@@ -1,0 +1,49 @@
+@import '../../constants/colours.scss';
+
+.home {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/BG.svg');
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+}
+
+.header {
+    font-weight: 800;
+    font-size: 8.125rem;
+    color: $primary-color;
+    text-transform: uppercase;
+}
+
+.columns {
+    display: flex;
+    box-shadow: 0rem 0.25rem 1.25rem $primary-color;
+}
+
+.column {
+    color: $body-text-color;
+    font-size: 2rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 4%;
+}
+
+.tuck-shop-item {
+    cursor: pointer;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator-title {
+    color: $body-text-color;
+    font-size: 3rem;
+}
