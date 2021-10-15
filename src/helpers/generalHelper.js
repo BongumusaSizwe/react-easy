@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = 'https://morning-inlet-67850.herokuapp.com';
+const url = 'http://localhost:4000';
 const axiosConfig = {
 	withCredentials: true,
 };
