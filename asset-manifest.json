@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-easy/static/css/main.a72488ff.chunk.css",
+    "main.js": "/react-easy/static/js/main.ab529196.chunk.js",
+    "main.js.map": "/react-easy/static/js/main.ab529196.chunk.js.map",
+    "runtime-main.js": "/react-easy/static/js/runtime-main.d0faefbb.js",
+    "runtime-main.js.map": "/react-easy/static/js/runtime-main.d0faefbb.js.map",
+    "static/css/2.0f1110e3.chunk.css": "/react-easy/static/css/2.0f1110e3.chunk.css",
+    "static/js/2.f702b7a8.chunk.js": "/react-easy/static/js/2.f702b7a8.chunk.js",
+    "static/js/2.f702b7a8.chunk.js.map": "/react-easy/static/js/2.f702b7a8.chunk.js.map",
+    "static/js/3.40ecbe6c.chunk.js": "/react-easy/static/js/3.40ecbe6c.chunk.js",
+    "static/js/3.40ecbe6c.chunk.js.map": "/react-easy/static/js/3.40ecbe6c.chunk.js.map",
+    "index.html": "/react-easy/index.html",
+    "static/css/2.0f1110e3.chunk.css.map": "/react-easy/static/css/2.0f1110e3.chunk.css.map",
+    "static/css/main.a72488ff.chunk.css.map": "/react-easy/static/css/main.a72488ff.chunk.css.map",
+    "static/js/2.f702b7a8.chunk.js.LICENSE.txt": "/react-easy/static/js/2.f702b7a8.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/react-easy/static/media/AvenirLTStd-Book.813557df.otf",
+    "static/media/Home.scss": "/react-easy/static/media/BG.72fbff61.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0faefbb.js",
+    "static/css/2.0f1110e3.chunk.css",
+    "static/js/2.f702b7a8.chunk.js",
+    "static/css/main.a72488ff.chunk.css",
+    "static/js/main.ab529196.chunk.js"
+  ]
+}
