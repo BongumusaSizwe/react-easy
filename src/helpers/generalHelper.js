@@ -1,5 +1,5 @@
 import axios from 'axios';
-const url = 'http://localhost:4000';
+const url = 'https://92b3-105-245-110-66.ngrok.io';
 const axiosConfig = {
 	withCredentials: true,
 };
