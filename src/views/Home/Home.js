@@ -17,10 +17,24 @@ export default class Home extends Component {
 
     async setTotal() {
         // TODO: set total value
+        
+        let res = await getTotal(this.state.selectedItems);
+        console.log(res.data.total);
+        let tot = res.data.total;
+        this.setState({total: tot});
     }
 
-    removeSelectedItems(selectedItem) {
+    removeSelectedItems(selectedItem, index) {
         // TODO: remove selected item from list
+        //const name = selectedItem.name;
+        //const index = this.state.selectedItems.findIndex(x=> x.name === name);
+        let tmp_items = this.state.selectedItems;
+        
+        //Remove the item from the list
+        tmp_items.splice(index, 1);
+        
+        this.setState({selectedItems: tmp_items})
+
     }
 
     render() {
@@ -34,8 +48,7 @@ export default class Home extends Component {
             },
             {
                 name: 'Burger',
-                price: 15
-            },
+                price: 15            },
             {
                 name: 'Pizza',
                 price: 20
@@ -56,6 +69,7 @@ export default class Home extends Component {
             },
         ]
 
+               
         return (
             <div className={'home'}>
                 <div className={'header'}>{header}</div>
@@ -97,7 +111,7 @@ export default class Home extends Component {
                         {
                             this.state.selectedItems.map((selectedItem, index) => {
                                 return(
-                                    <li className={'tuck-shop-item'} key={index} onClick={() => this.removeSelectedItems(selectedItem)}>
+                                    <li className={'tuck-shop-item'} key={index} onClick={() => this.removeSelectedItems(selectedItem, index)}>
                                         {selectedItem?.name + ' R' + selectedItem?.price}
                                     </li>
                                 )
