@@ -39,7 +39,8 @@ export default class Home extends Component {
 
     render() {
         const header = 'Tuck Shop'
-
+        
+        
         // TODO (optional): create api to send foods and drinks then set variables with data returned from api call
         const foods = [
             {
